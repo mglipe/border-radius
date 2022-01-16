@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto;
+
+        }
+        .container-1{
+            margin: 200px;
+        }
+        .container-flex{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .div1{
+            background: orangered;
+            padding: 50px;
+            border-radius: 120px 300px 0px 270px;
+
+        }
+
+        .div2{
+            background: yellow;
+            padding: 50px;
+            border-radius: 300px 120px 270px 0px;
+        }
+
+        .div3{
+            background: green;
+            padding: 50px;
+            border-radius: 270px 0px 300px 120px;
+        }
+
+        .div4{
+            background: purple;
+            padding: 50px;
+            border-radius: 0px 270px 120px 300px;
+
+        }
+
+        .div01{
+            background: orangered;
+            padding: 50px;
+            border-radius: 1200px 0px 0px 0px;
+
+        }
+
+        .div02{
+            background: yellow;
+            padding: 50px;
+            border-radius: 0px 1200px 0px 0px;
+        }
+
+        .div03{
+            background: green;
+            padding: 50px;
+            border-radius: 0px 0px 0px 1200px;
+        }
+
+        .div04{
+            background: purple;
+            padding: 50px;
+            border-radius: 0px 0px 1200px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-1">
+            <div class="container-flex">
+                <div class="div1"></div>
+                <div class="div2"></div>
+            </div>
+            <div class="container-flex">    
+                <div class="div3"></div>
+                <div class="div4"></div>
+            </div>
+        </div>
+        <div class="container-1">
+            <div class="container-flex">
+                <div class="div01"></div>
+                <div class="div02"></div>
+            </div>
+            <div class="container-flex">    
+                <div class="div03"></div>
+                <div class="div04"></div>
+            </div>
+        </div>
+    </div>            
+</body>
+</html>
